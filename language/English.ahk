@@ -296,6 +296,8 @@ apiType=0
 ; The "keyfrom" parameter of the API key
 keyFrom=xxx
 
+; Http Proxy
+httpProxy=127.0.0.1:1080
 
 ;----------------------------------------------------------------;
 
