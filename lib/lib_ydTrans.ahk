@@ -114,10 +114,10 @@ sendStr:=youdaoApiString . UTF8Codes
 whr := ComObjCreate("WinHttp.WinHttpRequest.5.1")
 
 ;~ 设置代理服务器
-if(CLSets.TTranslate.HttpProxy!="")
+if(CLSets.TTranslate.httpProxy!="")
 {
 	HTTPREQUEST_PROXYSETTING_PROXY := 2
-	whr.SetProxy(HTTPREQUEST_PROXYSETTING_PROXY, CLSets.TTranslate.HttpProxy)
+	whr.SetProxy(HTTPREQUEST_PROXYSETTING_PROXY, CLSets.TTranslate.httpProxy)
 }
 
 whr.Open("GET", sendStr)
