@@ -25,8 +25,8 @@ keySchemeInit_capslox(){
 
     if(!keyset.caps_a)
         keyset.caps_a:="keyFunc_moveWordLeft"
-    if(!keyset.caps_b)
-        keyset.caps_b:="keyFunc_moveDown(10)"
+    ; if(!keyset.caps_b)
+    ;     keyset.caps_b:="keyFunc_moveDown(10)"
     if(!keyset.caps_c)
         keyset.caps_c:="keyFunc_copy_1"
     if(!keyset.caps_d)
@@ -62,7 +62,8 @@ keySchemeInit_capslox(){
     if(!keyset.caps_s)
         keyset.caps_s:="keyFunc_moveLeft"
     if(!keyset.caps_t)
-        keyset.caps_t:="keyFunc_moveUp(10)"
+        keyset.caps_t:="keyFunc_translate"
+        ; keyset.caps_t:="keyFunc_moveUp(10)"
     if(!keyset.caps_u)
         keyset.caps_u:="keyFunc_selectHome"
     if(!keyset.caps_v)
@@ -133,8 +134,8 @@ keySchemeInit_capslox(){
         keyset.caps_f1:="keyFunc_openCpasDocs"
     if(!keyset.caps_f2)
         keyset.caps_f2:="keyFunc_mathBoard"
-    if(!keyset.caps_f3)
-        keyset.caps_f3:="keyFunc_translate"
+    ; if(!keyset.caps_f3)
+    ;    keyset.caps_f3:="keyFunc_translate"
     if(!keyset.caps_f4)
         keyset.caps_f4:="keyFunc_winTransparent"
     if(!keyset.caps_f5)
